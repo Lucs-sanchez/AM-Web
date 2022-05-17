@@ -84,7 +84,6 @@ h1{
     transition: 0.4s;
 }
 
-
 .Articulo__footer {
     margin-top: auto;
     width: 100%;
@@ -294,89 +293,88 @@ h1{
 }
 
 @media screen and (max-width: 637px) {
-    h1{
-        font-size: 40px;
-        letter-spacing: 16px;
-        color: #ffffff;
-        font-style: italic
-    }
+h1{
+    font-size: 40px;
+    letter-spacing: 16px;
+    color: #ffffff;
+    font-style: italic
+}
+
+.nav__desktop{
+    display: none;
+}
+
+.nav__mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav{
+    border: 0;
+}
+
+.nav-link:hover{
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
     
-    .nav__desktop{
-        display: none;
-    }
+.bg-dark{
+     --bs-bg-opacity: 0;
+     display: block;
+}
 
-    .nav__mobile{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    .nav{
-        border: 0;
-    }
-
-    .nav-link:hover{
-        padding: 5px;
-        font-size: 1.5rem;
-    }
-
+.p-4{
+    padding: 10px !important;
+}
     
-    .bg-dark{
-        --bs-bg-opacity: 0;
-        display: block;
-    }
+.css-button-arrow--black {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    background-color: #000000
+}
 
-    .p-4{
-        padding: 10px !important;
-    }
-    
-    .css-button-arrow--black {
-        min-width: 130px;
-        height: 40px;
-        color: #fff;
-        padding: 5px 10px;
-        font-weight: bold;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        position: relative;
-        display: inline-block;
-        outline: none;
-        overflow: hidden;
-        border-radius: 5px;
-        border: none;
-        background-color: #000000
-    }
+.css-button-arrow--black:hover {
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left:8px;
+}
 
-    .css-button-arrow--black:hover {
-        border-radius: 5px;
-        padding-right: 24px;
-        padding-left:8px;
-    }
+.css-button-arrow--black:hover:after {
+    opacity: 1;
+    right: 10px;
+}
 
-    .css-button-arrow--black:hover:after {
-        opacity: 1;
-        right: 10px;
-    }
-
-    .css-button-arrow--black:after {
-        content: "\00BB";
-        position: absolute;
-        opacity: 0;
-        font-size: 20px;
-        line-height: 40px;
-        top: 0;
-        right: -20px;
-        transition: 0.4s;
-    }
+.css-button-arrow--black:after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 40px;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+}
 
 
-    .imagen__index2{
-        margin: 1rem 0 ;
-        background: rgba( 115, 115, 115, 0.6 );
-        border-radius: 2rem;
-        border: 10px solid rgba( 255, 255, 255, 0.18 );
-    }
+.imagen__index2{
+    margin: 1rem 0 ;
+    background: rgba( 115, 115, 115, 0.6 );
+    border-radius: 2rem;
+    border: 10px solid rgba( 255, 255, 255, 0.18 );
+}
 
 /* Biografia */
 
@@ -414,100 +412,99 @@ h1{
 /* Contacto */
 
 .form__contacto{
-        margin-top: 1rem;
-        margin-bottom: 2rem;
-        padding: 1rem;
-        background: rgba( 68, 60, 60, 0.4 );
-        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 4.5px );
-        -webkit-backdrop-filter: blur( 4.5px );
-        border-radius: 10px;
-        border: 1px solid rgba( 255, 255, 255, 0.18 );
-        color: #ffffff;
-        height: 600px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: rgba( 68, 60, 60, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: #ffffff;
+    height: 600px;
 }
 
 .genero__contacto{
-        margin-left: 5px;
+    margin-left: 5px;
 }
 
 .form__pais{
-        margin-bottom: 10px;
-        width: 95%;
-    }
+    margin-bottom: 10px;
+    width: 95%;
+}
 
 }
 
 @media screen and (max-width: 425px) {
 
-    .nav__desktop{
-        display: none;
+.nav__desktop{
+    display: none;
     }
 
-    .nav__mobile{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+.nav__mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    }
+.nav{
+    border: 0;
+}
 
-    .nav{
-        border: 0;
-    }
-
-    .nav-link:hover{
-        padding: 5px;
-        font-size: 1.5rem;
-    }
+.nav-link:hover{
+    padding: 5px;
+    font-size: 1.5rem;
+}
 
     
-    .bg-dark{
-        --bs-bg-opacity: 0;
-        display: block;
-    }
+.bg-dark{
+    --bs-bg-opacity: 0;
+    display: block;
+}
 
-    .p-4{
-        padding: 10px !important;
-    }
+.p-4{
+    padding: 10px !important;
+}
     
-    .css-button-arrow--black {
-        min-width: 130px;
-        height: 40px;
-        color: #fff;
-        padding: 5px 10px;
-        font-weight: bold;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        position: relative;
-        display: inline-block;
-        outline: none;
-        overflow: hidden;
-        border-radius: 5px;
-        border: none;
-        background-color: #000000
-    }
+.css-button-arrow--black {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    background-color: #000000
+}
 
-    .css-button-arrow--black:hover {
-        border-radius: 5px;
-        padding-right: 24px;
-        padding-left:8px;
-    }
+.css-button-arrow--black:hover {
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left:8px;
+}
 
-    .css-button-arrow--black:hover:after {
-        opacity: 1;
-        right: 10px;
-    }
+.css-button-arrow--black:hover:after {
+    opacity: 1;
+    right: 10px;
+}
 
-    .css-button-arrow--black:after {
-        content: "\00BB";
-        position: absolute;
-        opacity: 0;
-        font-size: 20px;
-        line-height: 40px;
-        top: 0;
-        right: -20px;
-        transition: 0.4s;
-    }
+.css-button-arrow--black:after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 40px;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+}
 
 /* Discografia */
 .Album__parrafo1{
@@ -520,7 +517,7 @@ h1{
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     color: #ffffff;
-    }
+}
 
 }
 

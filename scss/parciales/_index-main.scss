@@ -1,0 +1,27 @@
+.imagen__index1{
+    margin-top: 1rem;
+    background: rgba( 115, 115, 115, 0.6 );
+    border-radius: 2rem;
+    border: 10px solid rgba( 255, 255, 255, 0.18 );
+
+
+    &__index2{
+    margin: 1rem 15px;
+    background: rgba( 115, 115, 115, 0.6 );
+    border-radius: 2rem;
+    border: 10px solid rgba( 255, 255, 255, 0.18 );
+    }
+}
+
+.parrafo__index{
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 17px ;
+    background: rgba( 68, 60, 60, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: #ffffff;
+}
