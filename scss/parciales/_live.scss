@@ -1,4 +1,6 @@
-.live__tabla{
+.live{
+
+    &__tabla{
     margin-top: 1rem;
     margin-bottom: 2rem;
     font-size: 1.5rem;
@@ -9,15 +11,22 @@
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     color: #ffffff;
+    }
 
-
+    &__titulo{
+            width: auto;
+            margin: 1rem;
+            font-weight: 800;
+    }
+    
     &__live{
         width: auto;
         margin: 1rem;
         font-weight: 800;
     }
-
+    
     &__tabla tr{
         color: #ffffff;
     }
+
 }

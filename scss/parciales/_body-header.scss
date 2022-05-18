@@ -34,15 +34,16 @@ header {
 
 .nav {
     border: 2px #ffffff solid;
+} 
 
-    .nav-link {
+.nav-link {
     text-decoration: none;
     color: #ffffff;
     font-size: 1.2rem;
     margin: 0 10px;
-    }
+}
 
-    .css-button-arrow--black {
+.css-button-arrow--black {
     height: 40px;
     color: #fff;
     font-weight: bold;
@@ -55,20 +56,20 @@ header {
     border-radius: 5px;
     border: none;
     background-color: #000000
-    }
+}
 
-    .css-button-arrow--black:hover {
+.css-button-arrow--black:hover {
     border-radius: 5px;
     padding-right: 24px;
     padding-left:8px;
-    }
+}
 
-    .css-button-arrow--black:hover:after {
+.css-button-arrow--black:hover:after {
     opacity: 1;
     right: 10px;
-    }
+}
 
-    .css-button-arrow--black:after {
+.css-button-arrow--black:after {
     content: "\00BB";
     position: absolute;
     opacity: 0;
@@ -77,12 +78,11 @@ header {
     top: 0;
     right: -20px;
     transition: 0.4s;
-    }
+}
 
-    .bg-dark{
+.bg-dark{
         --bs-bg-opacity: 0;
         display: none;
-    }
 }
 
 .Articulo__footer {

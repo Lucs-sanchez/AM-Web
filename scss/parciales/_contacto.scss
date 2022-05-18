@@ -1,4 +1,4 @@
-.form__contacto {
+.form1 {
     margin-top: 1rem;
     padding: 1rem;
     background: rgba(68, 60, 60, 0.4);
@@ -23,15 +23,19 @@
     width: 98%;
     }
   
-    &__contacto {
+    &__contacto1 {
     margin-left: 2rem;
     }
-  
+    
+    &__genero{
+        margin-left: 2rem;
+    }
+
     &__comentario {
     color: #364551;
     }
   
-    &__contacto {
+    &__boton {
     margin-top: 1rem;
     width: 98%;
     }

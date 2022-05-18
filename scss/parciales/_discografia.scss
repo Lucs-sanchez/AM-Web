@@ -1,4 +1,6 @@
-.Album__titulo1{
+.Album{
+
+        &__titulo1{
     text-align: center;
     justify-content: center;
     margin: 1rem;
@@ -10,23 +12,23 @@
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     color: #ffffff;
+        }
 
-
-    &__imagen1{
+        &__imagen1{
         margin-top: 1rem;
         background: rgba( 115, 115, 115, 0.6 );
         border-radius: 2rem;
         border: 10px solid rgba( 255, 255, 255, 0.18 );
-    }
+        }
 
-    &__video1{
+        &__video1{
         margin-top: 1rem;
         background: rgba( 115, 115, 115, 0.6 );
         border-radius: 2rem;
         border: 10px solid rgba( 255, 255, 255, 0.18 );
-    }
+        }
 
-    &__parrafo1{
+        &__parrafo1{
         margin: 2rem;
         text-align: center;
         font-size: 17px ;
@@ -37,5 +39,5 @@
         border-radius: 10px;
         border: 1px solid rgba( 255, 255, 255, 0.18 );
         color: #ffffff;
-    }
+        }
 }

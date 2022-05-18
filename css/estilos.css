@@ -34,14 +34,14 @@ header h1 {
   border: 2px #ffffff solid;
 }
 
-.nav .nav-link {
+.nav-link {
   text-decoration: none;
   color: #ffffff;
   font-size: 1.2rem;
   margin: 0 10px;
 }
 
-.nav .css-button-arrow--black {
+.css-button-arrow--black {
   height: 40px;
   color: #fff;
   font-weight: bold;
@@ -56,18 +56,18 @@ header h1 {
   background-color: #000000;
 }
 
-.nav .css-button-arrow--black:hover {
+.css-button-arrow--black:hover {
   border-radius: 5px;
   padding-right: 24px;
   padding-left: 8px;
 }
 
-.nav .css-button-arrow--black:hover:after {
+.css-button-arrow--black:hover:after {
   opacity: 1;
   right: 10px;
 }
 
-.nav .css-button-arrow--black:after {
+.css-button-arrow--black:after {
   content: "\00BB";
   position: absolute;
   opacity: 0;
@@ -78,7 +78,7 @@ header h1 {
   transition: 0.4s;
 }
 
-.nav .bg-dark {
+.bg-dark {
   --bs-bg-opacity: 0;
   display: none;
 }
@@ -93,21 +93,21 @@ header h1 {
   font-size: 20px;
 }
 
-.imagen__index1 {
+.index__imagen1 {
   margin-top: 1rem;
   background: rgba(115, 115, 115, 0.6);
   border-radius: 2rem;
   border: 10px solid rgba(255, 255, 255, 0.18);
 }
 
-.imagen__index1__index2 {
+.index__imagen2 {
   margin: 1rem 15px;
   background: rgba(115, 115, 115, 0.6);
   border-radius: 2rem;
   border: 10px solid rgba(255, 255, 255, 0.18);
 }
 
-.parrafo__index {
+.index__parrafo {
   margin-bottom: 2rem;
   text-align: center;
   font-size: 17px;
@@ -127,7 +127,7 @@ header h1 {
   border: 10px solid rgba(255, 255, 255, 0.18);
 }
 
-.biografia__album__parrafo {
+.biografia__parrafo {
   text-align: center;
   font-size: 17px;
   background: rgba(68, 60, 60, 0.4);
@@ -139,10 +139,23 @@ header h1 {
   color: #ffffff;
 }
 
-.biografia__album__principal {
+.biografia__principal {
   margin-bottom: 2rem;
   text-align: center;
   font-size: 17px;
+  background: rgba(68, 60, 60, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #ffffff;
+}
+
+.biografia__lista {
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 2rem;
   background: rgba(68, 60, 60, 0.4);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4.5px);
@@ -165,13 +178,19 @@ header h1 {
   color: #ffffff;
 }
 
-.live__tabla__live {
+.live__titulo {
   width: auto;
   margin: 1rem;
   font-weight: 800;
 }
 
-.live__tabla__tabla tr {
+.live__live {
+  width: auto;
+  margin: 1rem;
+  font-weight: 800;
+}
+
+.live__tabla tr {
   color: #ffffff;
 }
 
@@ -189,21 +208,21 @@ header h1 {
   color: #ffffff;
 }
 
-.Album__titulo1__imagen1 {
+.Album__imagen1 {
   margin-top: 1rem;
   background: rgba(115, 115, 115, 0.6);
   border-radius: 2rem;
   border: 10px solid rgba(255, 255, 255, 0.18);
 }
 
-.Album__titulo1__video1 {
+.Album__video1 {
   margin-top: 1rem;
   background: rgba(115, 115, 115, 0.6);
   border-radius: 2rem;
   border: 10px solid rgba(255, 255, 255, 0.18);
 }
 
-.Album__titulo1__parrafo1 {
+.Album__parrafo1 {
   margin: 2rem;
   text-align: center;
   font-size: 17px;
@@ -216,7 +235,7 @@ header h1 {
   color: #ffffff;
 }
 
-.form__contacto {
+.form1 {
   margin-top: 1rem;
   padding: 1rem;
   background: rgba(68, 60, 60, 0.4);
@@ -229,60 +248,53 @@ header h1 {
   height: 600px;
 }
 
-.form__contacto__contacto {
+.form1__contacto {
   justify-content: center;
   margin-bottom: 2rem;
   font-weight: 800;
 }
 
-.form__contacto__pais {
+.form1__pais {
   margin-left: 10px;
   margin-bottom: 10px;
   width: 98%;
 }
 
-.form__contacto__contacto {
+.form1__contacto1 {
   margin-left: 2rem;
 }
 
-.form__contacto__comentario {
+.form1__genero {
+  margin-left: 2rem;
+}
+
+.form1__comentario {
   color: #364551;
 }
 
-.form__contacto__contacto {
+.form1__boton {
   margin-top: 1rem;
   width: 98%;
 }
 
 @media screen and (max-width: 594px) {
   /* Contacto */
-  .form__genero {
+  .form1__genero {
     margin-left: 5px;
   }
-  .form__contacto {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    background: rgba(68, 60, 60, 0.4);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(4.5px);
-    -webkit-backdrop-filter: blur(4.5px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    color: #ffffff;
-    height: 600px;
+  .form1__pais {
+    margin-left: 12px;
+    margin-bottom: 10px;
+    width: 93%;
   }
 }
 
 @media screen and (max-width: 637px) {
-  h1 {
+  header h1 {
     font-size: 40px;
     letter-spacing: 16px;
     color: #ffffff;
     font-style: italic;
-  }
-  .nav {
-    border: 0;
   }
   .nav__desktop {
     display: none;
@@ -291,6 +303,9 @@ header h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .nav {
+    border: 0;
   }
   .nav-link:hover {
     padding: 5px;
@@ -338,14 +353,14 @@ header h1 {
     right: -20px;
     transition: 0.4s;
   }
-  .imagen__index2 {
+  .index__imagen2 {
     margin: 1rem 0;
     background: rgba(115, 115, 115, 0.6);
     border-radius: 2rem;
     border: 10px solid rgba(255, 255, 255, 0.18);
   }
   /* Biografia */
-  .lista__principal {
+  .biografia__principal {
     text-align: center;
     font-size: 17px;
     margin-bottom: 2rem;
@@ -371,7 +386,7 @@ header h1 {
     color: #ffffff;
   }
   /* Contacto */
-  .form__contacto {
+  .form1 {
     margin-top: 1rem;
     margin-bottom: 2rem;
     padding: 1rem;
@@ -384,7 +399,7 @@ header h1 {
     color: #ffffff;
     height: 600px;
   }
-  .form__genero {
+  .genero__contacto {
     margin-left: 5px;
   }
   .form__pais {
@@ -394,9 +409,6 @@ header h1 {
 }
 
 @media screen and (max-width: 425px) {
-  .nav {
-    border: 0;
-  }
   .nav__desktop {
     display: none;
   }
@@ -404,6 +416,9 @@ header h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .nav {
+    border: 0;
   }
   .nav-link:hover {
     padding: 5px;
