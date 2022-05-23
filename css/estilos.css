@@ -127,7 +127,7 @@ header h1 {
   border: 10px solid rgba(255, 255, 255, 0.18);
 }
 
-.biografia__parrafo {
+.biografia__parrafo, .biografia__principal, .biografia__lista {
   text-align: center;
   font-size: 17px;
   background: rgba(68, 60, 60, 0.4);
@@ -141,28 +141,10 @@ header h1 {
 
 .biografia__principal {
   margin-bottom: 2rem;
-  text-align: center;
-  font-size: 17px;
-  background: rgba(68, 60, 60, 0.4);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4.5px);
-  -webkit-backdrop-filter: blur(4.5px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  color: #ffffff;
 }
 
 .biografia__lista {
-  text-align: center;
-  font-size: 17px;
   margin-bottom: 2rem;
-  background: rgba(68, 60, 60, 0.4);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4.5px);
-  -webkit-backdrop-filter: blur(4.5px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  color: #ffffff;
 }
 
 .live__tabla {
