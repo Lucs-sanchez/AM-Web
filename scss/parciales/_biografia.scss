@@ -1,32 +1,39 @@
+@mixin estilos-variados ($background, $sombras, $filtro, $filtro2, $borde) {
+    background: $background;
+    box-shadow: $sombras;
+    backdrop-filter: $filtro;
+    -webkit-backdrop-filter: $filtro2;
+    border: $borde;
+}
+
+
 .biografia{
     
     &__album{
-    margin: 1rem 0;
-    background: rgba( 115, 115, 115, 0.6 );
-    border-radius: 2rem;
-    border: 10px solid rgba( 255, 255, 255, 0.18 );
+        margin: 1rem 0;
+        border-radius: 2rem;
+        border: 10px solid rgba( 255, 255, 255, 0.18 );
     }
 
     &__parrafo{
-    text-align: center;
-    font-size: 17px ;
-    background: rgba( 68, 60, 60, 0.4 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 4.5px );
-    -webkit-backdrop-filter: blur( 4.5px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    color: #ffffff;
+        @include estilos-variados(rgba( 68, 60, 60, 0.4 ),
+        0 8px 32px 0 rgba( 31, 38, 135, 0.37 ), 
+        blur( 4.5px ), 
+        blur( 4.5px ), 
+        1px solid rgba( 255, 255, 255, 0.18 ));
+        text-align: center;
+        font-size: 1.2rem ;
+        border-radius: 10px;
+        color: #ffffff;
     }
 
     &__principal{
-    @extend .biografia__parrafo;
-    margin-bottom: 2rem;
+        @extend .biografia__parrafo;
+        margin-bottom: 2rem;
     }
 
     &__lista{
-    @extend .biografia__parrafo;
-    margin-bottom: 2rem;
+        @extend .biografia__parrafo;
+        margin-bottom: 2rem;
     }
 }
-

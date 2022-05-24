@@ -1,28 +1,26 @@
 .live{
 
     &__tabla{
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    font-size: 1.5rem;
-    background: rgba( 68, 60, 60, 0.4 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 4.5px );
-    -webkit-backdrop-filter: blur( 4.5px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    color: #ffffff;
+        @include estilos-variados(rgba( 68, 60, 60, 0.4 ),
+        0 8px 32px 0 rgba( 31, 38, 135, 0.37 ), 
+        blur( 4.5px ), 
+        blur( 4.5px ), 
+        1px solid rgba( 255, 255, 255, 0.18 ));
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        color: #ffffff;
     }
 
     &__titulo{
-            width: auto;
-            margin: 1rem;
-            font-weight: 800;
-    }
-    
-    &__live{
         width: auto;
         margin: 1rem;
         font-weight: 800;
+    }
+    
+    &__live{
+        @extend .live__titulo;
     }
     
     &__tabla tr{

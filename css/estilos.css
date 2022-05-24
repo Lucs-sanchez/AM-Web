@@ -93,13 +93,6 @@ header h1 {
   font-size: 20px;
 }
 
-.index__imagen1 {
-  margin-top: 1rem;
-  background: rgba(115, 115, 115, 0.6);
-  border-radius: 2rem;
-  border: 10px solid rgba(255, 255, 255, 0.18);
-}
-
 .index__imagen2 {
   margin: 1rem 15px;
   background: rgba(115, 115, 115, 0.6);
@@ -108,34 +101,33 @@ header h1 {
 }
 
 .index__parrafo {
-  margin-bottom: 2rem;
-  text-align: center;
-  font-size: 17px;
-  background: rgba(68, 60, 60, 0.4);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4.5px);
-  -webkit-backdrop-filter: blur(4.5px);
-  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   color: #ffffff;
+  text-align: center;
+  justify-content: center;
+  margin: 1rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
 }
 
 .biografia__album {
   margin: 1rem 0;
-  background: rgba(115, 115, 115, 0.6);
   border-radius: 2rem;
   border: 10px solid rgba(255, 255, 255, 0.18);
 }
 
 .biografia__parrafo, .biografia__principal, .biografia__lista {
-  text-align: center;
-  font-size: 17px;
   background: rgba(68, 60, 60, 0.4);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4.5px);
   -webkit-backdrop-filter: blur(4.5px);
-  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 10px;
   color: #ffffff;
 }
 
@@ -148,25 +140,19 @@ header h1 {
 }
 
 .live__tabla {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-  font-size: 1.5rem;
   background: rgba(68, 60, 60, 0.4);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4.5px);
   -webkit-backdrop-filter: blur(4.5px);
-  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
   color: #ffffff;
 }
 
-.live__titulo {
-  width: auto;
-  margin: 1rem;
-  font-weight: 800;
-}
-
-.live__live {
+.live__titulo, .live__live {
   width: auto;
   margin: 1rem;
   font-weight: 800;
@@ -176,28 +162,19 @@ header h1 {
   color: #ffffff;
 }
 
-.Album__titulo1 {
+.Album__titulo1, .Album__parrafo1 {
   text-align: center;
   justify-content: center;
   margin: 1rem;
   width: 90%;
-  background: rgba(68, 60, 60, 0.4);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4.5px);
-  -webkit-backdrop-filter: blur(4.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   color: #ffffff;
 }
 
-.Album__imagen1 {
-  margin-top: 1rem;
-  background: rgba(115, 115, 115, 0.6);
-  border-radius: 2rem;
-  border: 10px solid rgba(255, 255, 255, 0.18);
-}
-
-.Album__video1 {
+.Album__imagen1, .index__imagen1, .Album__video1 {
   margin-top: 1rem;
   background: rgba(115, 115, 115, 0.6);
   border-radius: 2rem;
@@ -206,26 +183,18 @@ header h1 {
 
 .Album__parrafo1 {
   margin: 2rem;
-  text-align: center;
-  font-size: 17px;
-  background: rgba(68, 60, 60, 0.4);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4.5px);
-  -webkit-backdrop-filter: blur(4.5px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  color: #ffffff;
+  font-size: 1.2rem;
 }
 
 .form1 {
-  margin-top: 1rem;
-  padding: 1rem;
   background: rgba(68, 60, 60, 0.4);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4.5px);
   -webkit-backdrop-filter: blur(4.5px);
-  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
   color: #ffffff;
   height: 600px;
 }
@@ -450,14 +419,14 @@ header h1 {
   }
   /* Discografia */
   .Album__parrafo1 {
-    margin-left: 3.5rem;
-    font-size: 17px;
     background: rgba(68, 60, 60, 0.4);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(4.5px);
     -webkit-backdrop-filter: blur(4.5px);
-    border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
+    align-items: center;
+    font-size: 17px;
+    border-radius: 10px;
     color: #ffffff;
   }
 }

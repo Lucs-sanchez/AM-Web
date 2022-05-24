@@ -229,14 +229,14 @@
     
     /* Discografia */
     .Album__parrafo1{
-        margin-left: 3.5rem;
+        @include estilos-variados(rgba( 68, 60, 60, 0.4 ),
+        0 8px 32px 0 rgba( 31, 38, 135, 0.37 ), 
+        blur( 4.5px ), 
+        blur( 4.5px ), 
+        1px solid rgba( 255, 255, 255, 0.18 ));
+        align-items: center;
         font-size: 17px ;
-        background: rgba( 68, 60, 60, 0.4 );
-        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 4.5px );
-        -webkit-backdrop-filter: blur( 4.5px );
         border-radius: 10px;
-        border: 1px solid rgba( 255, 255, 255, 0.18 );
         color: #ffffff;
     }
     

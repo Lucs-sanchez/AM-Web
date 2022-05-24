@@ -1,12 +1,12 @@
 .form1 {
+    @include estilos-variados (rgba( 68, 60, 60, 0.4 ),
+    0 8px 32px 0 rgba( 31, 38, 135, 0.37 ),
+    blur( 4.5px ),
+    blur( 4.5px ),
+    1px solid rgba( 255, 255, 255, 0.18 ));
     margin-top: 1rem;
     padding: 1rem;
-    background: rgba(68, 60, 60, 0.4);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(4.5px);
-    -webkit-backdrop-filter: blur(4.5px);
     border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
     color: #ffffff;
     height: 600px;
 
@@ -28,7 +28,7 @@
     }
     
     &__genero{
-        margin-left: 2rem;
+    margin-left: 2rem;
     }
 
     &__comentario {
