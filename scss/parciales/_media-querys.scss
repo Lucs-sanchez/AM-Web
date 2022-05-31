@@ -1,5 +1,168 @@
+@media screen and (max-width: 1024px){
+    .capa{
+        position: absolute;
+        background-color: aliceblue;
+        border-radius: 2rem;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 800;
+        color: rgb(0, 0, 0);
+        opacity: 0;
+    }
 
-    @media screen and (max-width: 594px ) {
+    p{
+        margin: 2rem 0;
+        opacity: calc(1);
+    }
+
+    .capa__vinilo{
+        margin: 10px 0;
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .capa{
+        position: absolute;
+        background-color: aliceblue;
+        border-radius: 2rem;
+        bottom: 0;
+        width: 95%;
+        height: 100%;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 800;
+        color: rgb(0, 0, 0);
+        opacity: 0;
+    }
+
+    p{
+        margin-top: 1rem;
+        opacity: calc(1);
+    }
+
+    .capa__vinilo{
+        font-size: 15px;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 637px) {
+header h1{
+    font-size: 40px;
+    letter-spacing: 16px;
+    color: #ffffff;
+    font-style: italic;
+}
+
+.nav__desktop{
+    display: none;
+}
+
+.nav__mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav{
+    border: 0;
+}
+
+.nav-link:hover{
+    padding: 5px;
+    font-size: 1.5rem;
+}
+      
+.bg-dark{
+     --bs-bg-opacity: 0;
+     display: block;
+}
+
+.p-4{
+    padding: 10px !important;
+}
+
+.index__imagen2{
+    margin: 1rem 0 ;
+    background: rgba( 115, 115, 115, 0.6 );
+    border-radius: 2rem;
+    border: 10px solid rgba( 255, 255, 255, 0.18 );
+}
+
+/* Biografia */
+
+.biografia__principal{
+    text-align: center;
+    font-size: 17px ;
+    margin-bottom: 2rem;
+    background: rgba( 68, 60, 60, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: #ffffff;
+    
+}
+
+
+/* Live */
+
+.live__tabla{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    background: rgba( 68, 60, 60, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: #ffffff;
+}
+
+/* Contacto */
+
+.form1{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: rgba( 68, 60, 60, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: #ffffff;
+    height: 600px;
+}
+
+.genero__contacto{
+    margin-left: 5px;
+}
+
+.form__pais{
+    margin-bottom: 10px;
+    width: 95%;
+}
+
+// TIENDA
+
+.container__tienda{
+    margin: 5rem auto;
+    background-color: #364551;
+    border-radius: 2rem;
+    width: 80%;
+}
+
+}
+
+@media screen and (max-width: 594px ) {
 
     /* Contacto */
     
@@ -13,151 +176,9 @@
         width: 93%;
       }
     
-    }
+}
     
-    @media screen and (max-width: 637px) {
-    header h1{
-        font-size: 40px;
-        letter-spacing: 16px;
-        color: #ffffff;
-        font-style: italic;
-    }
-    
-    .nav__desktop{
-        display: none;
-    }
-    
-    .nav__mobile{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .nav{
-        border: 0;
-    }
-    
-    .nav-link:hover{
-        padding: 5px;
-        font-size: 1.5rem;
-    }
-          
-    .bg-dark{
-         --bs-bg-opacity: 0;
-         display: block;
-    }
-    
-    .p-4{
-        padding: 10px !important;
-    }
-        
-    .css-button-arrow--black {
-        min-width: 130px;
-        height: 40px;
-        color: #fff;
-        padding: 5px 10px;
-        font-weight: bold;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        position: relative;
-        display: inline-block;
-        outline: none;
-        overflow: hidden;
-        border-radius: 5px;
-        border: none;
-        background-color: #000000
-    }
-    
-    .css-button-arrow--black:hover {
-        border-radius: 5px;
-        padding-right: 24px;
-        padding-left:8px;
-    }
-    
-    .css-button-arrow--black:hover:after {
-        opacity: 1;
-        right: 10px;
-    }
-    
-    .css-button-arrow--black:after {
-        content: "\00BB";
-        position: absolute;
-        opacity: 0;
-        font-size: 20px;
-        line-height: 40px;
-        top: 0;
-        right: -20px;
-        transition: 0.4s;
-    }
-    
-    
-    .index__imagen2{
-        margin: 1rem 0 ;
-        background: rgba( 115, 115, 115, 0.6 );
-        border-radius: 2rem;
-        border: 10px solid rgba( 255, 255, 255, 0.18 );
-    }
-    
-    /* Biografia */
-    
-    .biografia__principal{
-        text-align: center;
-        font-size: 17px ;
-        margin-bottom: 2rem;
-        background: rgba( 68, 60, 60, 0.4 );
-        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 4.5px );
-        -webkit-backdrop-filter: blur( 4.5px );
-        border-radius: 10px;
-        border: 1px solid rgba( 255, 255, 255, 0.18 );
-        color: #ffffff;
-        
-    }
-    
-    
-    /* Live */
-    
-    .live__tabla{
-        margin-top: 1rem;
-        margin-bottom: 2rem;
-        font-size: 1.5rem;
-        background: rgba( 68, 60, 60, 0.4 );
-        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 4.5px );
-        -webkit-backdrop-filter: blur( 4.5px );
-        border-radius: 10px;
-        border: 1px solid rgba( 255, 255, 255, 0.18 );
-        color: #ffffff;
-    }
-    
-    /* Contacto */
-    
-    .form1{
-        margin-top: 1rem;
-        margin-bottom: 2rem;
-        padding: 1rem;
-        background: rgba( 68, 60, 60, 0.4 );
-        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 4.5px );
-        -webkit-backdrop-filter: blur( 4.5px );
-        border-radius: 10px;
-        border: 1px solid rgba( 255, 255, 255, 0.18 );
-        color: #ffffff;
-        height: 600px;
-    }
-    
-    .genero__contacto{
-        margin-left: 5px;
-    }
-    
-    .form__pais{
-        margin-bottom: 10px;
-        width: 95%;
-    }
-    
-    }
-    
-    @media screen and (max-width: 425px) {
+@media screen and (max-width: 425px) {
 
     .nav__desktop{
         display: none;
@@ -188,45 +209,6 @@
         padding: 10px !important;
     }
         
-    .css-button-arrow--black {
-        min-width: 130px;
-        height: 40px;
-        color: #fff;
-        padding: 5px 10px;
-        font-weight: bold;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        position: relative;
-        display: inline-block;
-        outline: none;
-        overflow: hidden;
-        border-radius: 5px;
-        border: none;
-        background-color: #000000
-    }
-    
-    .css-button-arrow--black:hover {
-        border-radius: 5px;
-        padding-right: 24px;
-        padding-left:8px;
-    }
-    
-    .css-button-arrow--black:hover:after {
-        opacity: 1;
-        right: 10px;
-    }
-    
-    .css-button-arrow--black:after {
-        content: "\00BB";
-        position: absolute;
-        opacity: 0;
-        font-size: 20px;
-        line-height: 40px;
-        top: 0;
-        right: -20px;
-        transition: 0.4s;
-    }
-    
     /* Discografia */
     .Album__parrafo1{
         @include estilos-variados(rgba( 68, 60, 60, 0.4 ),
@@ -240,5 +222,34 @@
         color: #ffffff;
     }
     
+    // TIENDA
+
+    .container__imagen{
+        margin-top: 1rem;
     }
+
+    .capa{
+        position: absolute;
+        background-color: aliceblue;
+        border-radius: 2rem;
+        bottom: 0;
+        width: 95%;
+        height: 100%;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 800;
+        color: rgb(0, 0, 0);
+        opacity: 0;
+    }
+
+    p{
+        margin-top: 30%;
+        opacity: calc(1);
+    }
+
+    .capa__vinilo{
+        font-size: 15px;
+        margin: 20% 0;
+    }
+}
     

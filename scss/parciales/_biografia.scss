@@ -36,4 +36,14 @@
         @extend .biografia__parrafo;
         margin-bottom: 2rem;
     }
+
+    &__imagen{
+        margin-top: 1rem;
+        background: rgba( 115, 115, 115, 0.6 );
+        border-radius: 2rem;
+        border: 10px solid rgba( 255, 255, 255, 0.18 );
+    }
 }
+
+
+

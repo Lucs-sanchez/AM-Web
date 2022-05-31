@@ -24,61 +24,59 @@ header .Header__titulo {
 }
 
 header h1 {
+  background-color: black;
   font-size: 50px;
   letter-spacing: 16px;
   color: #ffffff;
   font-style: italic;
 }
 
-.nav {
-  border: 2px #ffffff solid;
-}
-
 .nav-link {
   text-decoration: none;
   color: #ffffff;
   font-size: 1.2rem;
-  margin: 0 10px;
+  margin: 0 5px;
 }
 
-.css-button-arrow--black {
+.css-button-sliding-to-bottom--black {
   height: 40px;
   color: #fff;
+  padding: 5px 10px;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
   outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: black;
   overflow: hidden;
-  border-radius: 5px;
-  border: none;
-  background-color: #000000;
+  border: 1px solid #ffffff;
+  color: #ffffff;
 }
 
-.css-button-arrow--black:hover {
-  border-radius: 5px;
-  padding-right: 24px;
-  padding-left: 8px;
+.css-button-sliding-to-bottom--black:hover {
+  color: black;
 }
 
-.css-button-arrow--black:hover:after {
-  opacity: 1;
-  right: 10px;
+.css-button-sliding-to-bottom--black:hover:after {
+  height: 100%;
 }
 
-.css-button-arrow--black:after {
-  content: "\00BB";
+.css-button-sliding-to-bottom--black:after {
+  content: "";
   position: absolute;
-  opacity: 0;
-  font-size: 20px;
-  line-height: 40px;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
   top: 0;
-  right: -20px;
-  transition: 0.4s;
+  height: 0;
+  width: 100%;
+  background: #ffffff;
 }
 
-.bg-dark {
+.bg-dark, .p-4 {
   --bs-bg-opacity: 0;
   display: none;
 }
@@ -91,6 +89,10 @@ header h1 {
   color: #ffffff;
   text-align: center;
   font-size: 20px;
+}
+
+.nav__mobile {
+  flex-direction: row !important;
 }
 
 .index__imagen2 {
@@ -137,6 +139,13 @@ header h1 {
 
 .biografia__lista {
   margin-bottom: 2rem;
+}
+
+.biografia__imagen {
+  margin-top: 1rem;
+  background: rgba(115, 115, 115, 0.6);
+  border-radius: 2rem;
+  border: 10px solid rgba(255, 255, 255, 0.18);
 }
 
 .live__tabla {
@@ -228,15 +237,96 @@ header h1 {
   width: 98%;
 }
 
-@media screen and (max-width: 594px) {
-  /* Contacto */
-  .form1__genero {
-    margin-left: 5px;
+.container__tienda {
+  margin: 5rem auto;
+  background-color: #364551;
+  border-radius: 2rem;
+  width: 90%;
+}
+
+.container__imagen {
+  position: relative;
+}
+
+.capa {
+  position: absolute;
+  background-color: aliceblue;
+  border-radius: 2rem;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: black;
+  opacity: 0;
+}
+
+p {
+  margin-top: 35%;
+  opacity: calc(1);
+}
+
+a {
+  text-decoration: none;
+  opacity: calc(1);
+}
+
+.container__imagen:hover {
+  transform: scale(1.1);
+  opacity: calc(1);
+  transition: all 1.3s;
+}
+
+.capa:hover {
+  opacity: calc(0.8);
+}
+
+@media screen and (max-width: 1024px) {
+  .capa {
+    position: absolute;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 800;
+    color: black;
+    opacity: 0;
   }
-  .form1__pais {
-    margin-left: 12px;
-    margin-bottom: 10px;
-    width: 93%;
+  p {
+    margin: 2rem 0;
+    opacity: calc(1);
+  }
+  .capa__vinilo {
+    margin: 10px 0;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .capa {
+    position: absolute;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    bottom: 0;
+    width: 95%;
+    height: 100%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800;
+    color: black;
+    opacity: 0;
+  }
+  p {
+    margin-top: 1rem;
+    opacity: calc(1);
+  }
+  .capa__vinilo {
+    font-size: 15px;
+    margin: 10px 0;
   }
 }
 
@@ -268,41 +358,6 @@ header h1 {
   }
   .p-4 {
     padding: 10px !important;
-  }
-  .css-button-arrow--black {
-    min-width: 130px;
-    height: 40px;
-    color: #fff;
-    padding: 5px 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    outline: none;
-    overflow: hidden;
-    border-radius: 5px;
-    border: none;
-    background-color: #000000;
-  }
-  .css-button-arrow--black:hover {
-    border-radius: 5px;
-    padding-right: 24px;
-    padding-left: 8px;
-  }
-  .css-button-arrow--black:hover:after {
-    opacity: 1;
-    right: 10px;
-  }
-  .css-button-arrow--black:after {
-    content: "\00BB";
-    position: absolute;
-    opacity: 0;
-    font-size: 20px;
-    line-height: 40px;
-    top: 0;
-    right: -20px;
-    transition: 0.4s;
   }
   .index__imagen2 {
     margin: 1rem 0;
@@ -357,6 +412,24 @@ header h1 {
     margin-bottom: 10px;
     width: 95%;
   }
+  .container__tienda {
+    margin: 5rem auto;
+    background-color: #364551;
+    border-radius: 2rem;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 594px) {
+  /* Contacto */
+  .form1__genero {
+    margin-left: 5px;
+  }
+  .form1__pais {
+    margin-left: 12px;
+    margin-bottom: 10px;
+    width: 93%;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -382,41 +455,6 @@ header h1 {
   .p-4 {
     padding: 10px !important;
   }
-  .css-button-arrow--black {
-    min-width: 130px;
-    height: 40px;
-    color: #fff;
-    padding: 5px 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    outline: none;
-    overflow: hidden;
-    border-radius: 5px;
-    border: none;
-    background-color: #000000;
-  }
-  .css-button-arrow--black:hover {
-    border-radius: 5px;
-    padding-right: 24px;
-    padding-left: 8px;
-  }
-  .css-button-arrow--black:hover:after {
-    opacity: 1;
-    right: 10px;
-  }
-  .css-button-arrow--black:after {
-    content: "\00BB";
-    position: absolute;
-    opacity: 0;
-    font-size: 20px;
-    line-height: 40px;
-    top: 0;
-    right: -20px;
-    transition: 0.4s;
-  }
   /* Discografia */
   .Album__parrafo1 {
     background: rgba(68, 60, 60, 0.4);
@@ -428,6 +466,30 @@ header h1 {
     font-size: 17px;
     border-radius: 10px;
     color: #ffffff;
+  }
+  .container__imagen {
+    margin-top: 1rem;
+  }
+  .capa {
+    position: absolute;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    bottom: 0;
+    width: 95%;
+    height: 100%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800;
+    color: black;
+    opacity: 0;
+  }
+  p {
+    margin-top: 30%;
+    opacity: calc(1);
+  }
+  .capa__vinilo {
+    font-size: 15px;
+    margin: 20% 0;
   }
 }
 /*# sourceMappingURL=estilos.css.map */

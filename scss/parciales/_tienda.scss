@@ -1,0 +1,46 @@
+.container__tienda{
+    margin: 5rem auto;
+    background-color: #364551;
+    border-radius: 2rem;
+    width: 90%;
+}
+
+
+.container__imagen{
+    position: relative;
+}
+
+
+.capa{
+    position: absolute;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    opacity: 0;
+}
+
+p{
+    margin-top: 35%;
+    opacity: calc(1);
+}
+
+a{
+    text-decoration: none;
+    opacity: calc(1);
+}
+
+.container__imagen:hover{
+    transform: scale(1.1);
+    opacity: calc(1);
+    transition: all 1.3s;
+}
+
+.capa:hover{
+    opacity: calc(0.8);
+}
