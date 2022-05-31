@@ -1,12 +1,10 @@
-Paso a comentar los cambios y aplicaciones hechas en el proyecto:
-1- Apliqué 2 meta (description y keywords) donde describo brevemente el contenido de la pagina y dejo palabras clave alrededor de la banda musical que son de potencial busqueda entre los usuarios.
+Paso a comentar los cambios y aplicaciones hechas en el proyecto para la tercer entrega del trabajo final:
 
-2- Cambié varias etiquetas <p> y en su lugar agregué <h2> <h3> en las paginas "index", "biografia" y "discografia".
+1- Se agrego un estilo hover a los links de paginas por medio de unos estilos extraidos de una pagina web.
 
-(Sección SASS/estilos)
+2-Se agrego iconos de redes en la barra de navegacion.
 
-3- Apliqué un @mixin en el parcial "_biografia.scss" (linea 1 a 7 y linea 19 a 23) utilizandola tambien en "_live.scss" (linea 4 a 8), "_contacto.scss" (linea 2 a 6) y "_media-querys.scss" (linea 232 a 236).
+3-Se implementó una pagina nueva llamada "Tienda" en la cual hay productos y a su vez se agrego un estilo hover para que el usuario se entere el nombre del producto y el precio con un link para comprar al momento de ver con el puntero el producto en cuestión.
+NOTA IMPORTANTE: El link del precio llevaria a una pagina adicional para eleccion de talles y metodos de compra pero no llegué a terminarla por el tiempo de entrega, para el proyecto final estaria terminado.
 
-4- Apliqué @extend en los parciales "_index-main.scss" (linea 4), "_biografia.scss" (linea 31, linea 36), "_live.scss" (linea 22), "_discografia.scss" (linea 22, linea 26).
-
-Nota adicional: Hay cambios pendientes en la pagina tales como agregar iconos, mejorar el index y agregar una pagina extra de compras de cara al proyecto final.
+Nota adicional: Falta poner más info adicional en el footer tales como los iconos de redes o redirecciones a otras paginas. Tambien más contenido en biografia y cambiar el index totalmente a fin de crear una animacion o video como presentacion de la pagina web al entrar. Todo esto va a ser de cara al trabajo final
