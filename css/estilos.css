@@ -171,6 +171,11 @@ header h1 {
   color: #ffffff;
 }
 
+.live__tabla a {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
 .Album__titulo1, .Album__parrafo1 {
   text-align: center;
   justify-content: center;
@@ -282,6 +287,37 @@ a {
   opacity: calc(0.8);
 }
 
+body {
+  color: #ffffff;
+}
+
+.merch__container {
+  margin: 5rem auto;
+  background-color: #364551;
+  border-radius: 2rem;
+  width: 90%;
+}
+
+.merch__parrafo {
+  margin: 0;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.merch__table {
+  width: 400px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.merch__band {
+  margin-top: 1rem;
+}
+
+.merch__tittle {
+  margin-top: 10px;
+}
+
 @media screen and (max-width: 1024px) {
   .capa {
     position: absolute;
@@ -303,6 +339,11 @@ a {
   .capa__vinilo {
     margin: 10px 0;
     font-size: 15px;
+  }
+  .merch__table {
+    width: 300px;
+    text-align: center;
+    font-weight: 700;
   }
 }
 
@@ -327,6 +368,11 @@ a {
   .capa__vinilo {
     font-size: 15px;
     margin: 10px 0;
+  }
+  .merch__table {
+    width: 300px;
+    text-align: center;
+    font-weight: 700;
   }
 }
 
@@ -490,6 +536,35 @@ a {
   .capa__vinilo {
     font-size: 15px;
     margin: 20% 0;
+  }
+  .merch__carrito {
+    text-decoration: none;
+    justify-content: center;
+  }
+  .merch__parrafo {
+    text-align: center;
+  }
+  .merch__table {
+    width: 350px;
+    text-align: center;
+    font-weight: 700;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .merch__table {
+    width: 310px;
+    text-align: center;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .merch__table {
+    width: 265px;
+    text-align: center;
+    font-weight: 700;
   }
 }
 /*# sourceMappingURL=estilos.css.map */

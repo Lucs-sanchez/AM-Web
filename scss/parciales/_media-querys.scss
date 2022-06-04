@@ -23,9 +23,15 @@
         font-size: 15px;
     }
     
+    .merch__table{
+        width: 300px;
+        text-align: center;
+        font-weight: 700;
+    }
 }
 
 @media screen and (max-width: 768px){
+    // TIENDA
     .capa{
         position: absolute;
         background-color: aliceblue;
@@ -48,6 +54,14 @@
     .capa__vinilo{
         font-size: 15px;
         margin: 10px 0;
+    }
+
+    // MERCH-1
+
+    .merch__table{
+        width: 300px;
+        text-align: center;
+        font-weight: 700;
     }
 }
 
@@ -251,5 +265,40 @@ header h1{
         font-size: 15px;
         margin: 20% 0;
     }
+
+    // MERCH-1
+
+    .merch__carrito {
+        text-decoration: none;
+        justify-content: center;
+    }
+
+    .merch__parrafo{
+        text-align: center;
+    }
+
+    .merch__table{
+        width: 350px;
+        text-align: center;
+        font-weight: 700;
+        align-items: center;
+    }
 }
-    
+
+@media screen and (max-width: 375px){
+    .merch__table{
+        width: 310px;
+        text-align: center;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 320px){
+    // MERCH-1
+
+    .merch__table{
+        width: 265px;
+        text-align: center;
+        font-weight: 700;
+    }
+}
