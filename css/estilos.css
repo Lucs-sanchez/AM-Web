@@ -82,6 +82,8 @@ header h1 {
 }
 
 .Articulo__footer {
+  display: flex;
+  justify-content: center;
   margin-top: auto;
   width: 100%;
   padding: 2rem 0;
@@ -316,6 +318,14 @@ body {
 
 .merch__tittle {
   margin-top: 10px;
+}
+
+.tracklist {
+  margin: 1rem 0;
+}
+
+.tracklist-2 {
+  margin: 1rem 0;
 }
 
 @media screen and (max-width: 1024px) {
