@@ -1,7 +1,7 @@
-Arctic monkeys web es una emulacion de la pagina oficial de la banda https://www.arcticmonkeys.com.
+Arctic monkeys web es una emulacion de la pagina oficial de la banda https://www.arcticmonkeys.com
 
 Lamentablemente en su pagina original no hay mucho contenido (por no decir casi nada) por lo cual tuve que crear paginas y secciones que pueden ser mas llevaderas a este tipo de paginas y a su finalidad que es darse a conocer como un grupo musical al publico objetivo.
 
-El ultimo agregado fueron las paginas de merch en la tienda que estan configuradas desde un target _blank para que el usuario siga navegando en la tienda general.
+El ultimo agregado fueron las paginas de merch en la tienda que estan configuradas desde un target: _blank para que el usuario siga navegando en la tienda general.
 
 Espero que todo cumpla con lo pedido y sobre todas las cosas este en correctas condiciones. Muchas gracias!
