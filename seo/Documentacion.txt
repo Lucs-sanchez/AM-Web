@@ -1,10 +1,7 @@
-Paso a comentar los cambios y aplicaciones hechas en el proyecto para la tercer entrega del trabajo final:
+Arctic monkeys web es una emulacion de la pagina oficial de la banda https://www.arcticmonkeys.com.
 
-1- Se agrego un estilo hover a los links de paginas por medio de unos estilos extraidos de una pagina web.
+Lamentablemente en su pagina original no hay mucho contenido (por no decir casi nada) por lo cual tuve que crear paginas y secciones que pueden ser mas llevaderas a este tipo de paginas y a su finalidad que es darse a conocer como un grupo musical al publico objetivo.
 
-2-Se agrego iconos de redes en la barra de navegacion.
+El ultimo agregado fueron las paginas de merch en la tienda que estan configuradas desde un target _blank para que el usuario siga navegando en la tienda general.
 
-3-Se implementó una pagina nueva llamada "Tienda" en la cual hay productos y a su vez se agrego un estilo hover para que el usuario se entere el nombre del producto y el precio con un link para comprar al momento de ver con el puntero el producto en cuestión.
-NOTA IMPORTANTE: El link del precio llevaria a una pagina adicional para eleccion de talles y metodos de compra pero no llegué a terminarla por el tiempo de entrega, para el proyecto final estaria terminado.
-
-Nota adicional: Falta poner más info adicional en el footer tales como los iconos de redes o redirecciones a otras paginas. Tambien más contenido en biografia y cambiar el index totalmente a fin de crear una animacion o video como presentacion de la pagina web al entrar. Todo esto va a ser de cara al trabajo final
+Espero que todo cumpla con lo pedido y sobre todas las cosas este en correctas condiciones. Muchas gracias!
